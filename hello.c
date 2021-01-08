@@ -36,5 +36,6 @@ int main(int argc, char **argv){
 
 
 	printf("%d\n",sum(10,20));
+	printf("precommit\n");
 	return 0;
 }
