@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "hello.h"
 
 int main(int argc, char **argv){
 	printf("Hello World!\n");
@@ -32,5 +33,8 @@ int main(int argc, char **argv){
 	printf("Hello Hello!\n");
 	printf("Hello Hello!\n");
 	printf("Hello Hello!\n");
+
+
+	printf("%d\n",sum(10,20));
 	return 0;
 }
